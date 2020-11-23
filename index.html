@@ -1,141 +1,142 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sedona</title>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <ul>
-        <li>
-          <a href="#">Информация</a>
-        </li>
-        <li>
-          <a href="#">Фото и видео</a>
-        </li>
-        <li>
-          <div class="header__logo"></div>
-        </li>
-        <li>
-          <a href="#">Карта штата</a>
-        </li>
-        <li>
-          <a href="#">Гостиницы</a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <section class="main__welcom">
-        <p class="welcome">Welcome <span>to the gorgeous</span></p>
-        <h1>Sedona</h1>
-        <p>"Because the Grand Canyon sucks!"</p>
-      </div>
-      <div class="main__advantages">
-        <div class="advantages__heading">
-          <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-          <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-        </div>
-        <div>
-          <div class="advantages__item">
-            <p>Настоящий городок</p>
-            <p>— №1 —</p>
-            <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
-          </div>
-          <div class="advantages__item">
-            <ul>
-              <li>
-                <p>Жильё</p>
-                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-              </li>
-              <li>
-                <p>Еда</p>
-                <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-              </li>
-              <li>
-                <p>Сувениры</p>
-                <p>Не только китайского, но и местного производства!</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="advantages__item">
-          <p>Там есть Мост дьявола</p>
-          <p>— №2 —</p>
-          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-        </div>
-        <div class="advantages__item">
-          <ul>
-            <li>
-              <p>Небольшая площадь</p>
-              <p>— №3 —</p>
-              <p>Все достопримечательности находятся очень близко</p>
-            </li>
-            <li>
-              <p>Красивая дорога</p>
-              <p>— №4 —</p>
-              <p>Ехать в седону из Лас-Вегаса совсем не скучно!</p>
-            </li>
-            <li>
-              <p>Мало туристов</p>
-              <p>— №5 —</p>
-              <p>Большинство едет в гранд каньон и толпится там</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="main__form-block">
-        <div class="form-block__heading">
-          <h2>Заинтересовались?</h2>
-          <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        </div>
-        <div class="form-block__form">
-          <p>Поиск гостиницы в Седоне</p>
-          <form action="">
-            <label for="arrival-date">Дата заезда:</label>
-            <input type="date" name="arrival-date" id="arrival-date" value="19.11.2020">
-            <label for="departure-date">Дата выезда:</label>
-            <input type="date" name="departure-date" id="departure-date" value="25.11.2020">
-            <fieldset>
-              <label for="adults">Взрослые:</label>
-              <input type="number" name="adults" id="adults" value="1" min="1">
-              <label for="child">Дети:</label>
-              <input type="number" name="child" id="child" value="0">
-            </fieldset>
-            <input type="submit" name="" value="Найти">
-          </form>
-        </div>
-        <div class="form-block__map"></div>
-      </section>
-    </div>
-  </main>
-  <footer>
-    <div class="container">
-      <article>
-        <p>#visitSEDONA</p>
-        <p>ТЕЛ: +7(495) 666-01-66</p>
-      </article>
-      <article>
-        <ul>
-          <li>
-            <a href="#">twitter</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sedona</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <ul class="header-menu">
+          <li class="header-menu__item">
+            <a href="#">Информация</a>
           </li>
-          <li>
-            <a href="#">facebook</a>
+          <li class="header-menu__item">
+            <a href="#">Фото и видео</a>
           </li>
-          <li>
-            <a href="#">instagram</a>
+          <li class="header-menu__item">
+            <div class="header__logo"></div>
+          </li>
+          <li class="header-menu__item">
+            <a href="#">Карта штата</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#">Гостиницы</a>
           </li>
         </ul>
-      </article>
-      <article class="">
-        <p>Website by</p>
-      </article>
-    </div>
-  </footer>
-</body>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="welcom">
+          <div class="welcom__head">
+            <p class="welcome__description">Welcome <span>to the gorgeous</span></p>
+            <h1>Sedona</h1>
+            <p class="welcome__postscriptum">"Because the Grand Canyon sucks!"</p>
+          </div>
+        <div class="advantages">
+          <div class="advantages__heading">
+            <h2 class="advantages__head">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+            <p class="advantages__description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          </div>
+          <div>
+            <div class="advantages__item">
+              <p class="advantages__name">Настоящий городок</p>
+              <p class="advantages__number">— №1 —</p>
+              <p class="advantages__description">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+            <div class="advantages__item">
+              <ul class="advantages__list">
+                <li>
+                  <p class="advantages__name">Жильё</p>
+                  <p class="advantages__description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                </li>
+                <li>
+                  <p class="advantages__name">Еда</p>
+                  <p class="advantages__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                </li>
+                <li>
+                  <p class="advantages__name">Сувениры</p>
+                  <p class="advantages__description">Не только китайского, но и местного производства!</p>
+                </li>
+              </ul>
+            </div>
+            <div class="advantages__item">
+              <p class="advantages__name">Там есть Мост дьявола</p>
+              <p class="advantages__number">— №2 —</p>
+              <p class="advantages__description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>
+            <div class="advantages__item">
+              <ul class="advantages__list">
+                <li>
+                  <p class="advantages__name">Небольшая площадь</p>
+                  <p class="advantages__number">— №3 —</p>
+                  <p class="advantages__description">Все достопримечательности находятся очень близко</p>
+                </li>
+                <li>
+                  <p class="advantages__name">Красивая дорога</p>
+                  <p class="advantages__number">— №4 —</p>
+                  <p class="advantages__description">Ехать в седону из Лас-Вегаса совсем не скучно!</p>
+                </li>
+                <li>
+                  <p class="advantages__name">Мало туристов</p>
+                  <p class="advantages__number">— №5 —</p>
+                  <p class="advantages__description">Большинство едет в гранд каньон и толпится там</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="form-block">
+          <div class="form-block__heading">
+            <h2 class="form-block__name">Заинтересовались?</h2>
+            <p class="form-block__description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          </div>
+          <div class="form-block__form">
+            <p>Поиск гостиницы в Седоне</p>
+            <form action="">
+              <label for="arrival-date">Дата заезда:</label>
+              <input type="date" name="arrival-date" id="arrival-date" value="19.11.2020">
+              <label for="departure-date">Дата выезда:</label>
+              <input type="date" name="departure-date" id="departure-date" value="25.11.2020">
+              <fieldset>
+                <label for="adults">Взрослые:</label>
+                <input type="number" name="adults" id="adults" value="1" min="1">
+                <label for="child">Дети:</label>
+                <input type="number" name="child" id="child" value="0">
+              </fieldset>
+              <input type="submit" name="" value="Найти">
+            </form>
+          </div>
+          <div class="form-block__map"></div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <article class="contacts">
+          <p class="contacts__tag">#visitSEDONA</p>
+          <p class="contacts__phone">ТЕЛ: +7(495) 666-01-66</p>
+        </article>
+        <article class="social">
+          <ul class="social__list">
+            <li сlass="social__item">
+              <a href="#">twitter</a>
+            </li>
+            <li сlass="social__item">
+              <a href="#">facebook</a>
+            </li>
+            <li сlass="social__item">
+              <a href="#">instagram</a>
+            </li>
+          </ul>
+        </article>
+        <article class="copyrite">
+          <p class="copyrite__item">Website by</p>
+        </article>
+      </div>
+    </footer>
+  </body>
 </html>
