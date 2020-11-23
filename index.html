@@ -94,20 +94,20 @@
             <h2 class="form-block__name">Заинтересовались?</h2>
             <p class="form-block__description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           </div>
-          <div class="form-block__form">
-            <p>Поиск гостиницы в Седоне</p>
+          <div class="form">
+            <p class="form__title">Поиск гостиницы в Седоне</p>
             <form action="">
-              <label for="arrival-date">Дата заезда:</label>
-              <input type="date" name="arrival-date" id="arrival-date" value="19.11.2020">
-              <label for="departure-date">Дата выезда:</label>
-              <input type="date" name="departure-date" id="departure-date" value="25.11.2020">
+              <label for="arrival-date" class="form__label">Дата заезда:</label>
+              <input type="date" name="arrival-date" id="arrival-date" value="19.11.2020" class="form__input">
+              <label for="departure-date" class="form__label">Дата выезда:</label>
+              <input type="date" name="departure-date" id="departure-date" value="25.11.2020" class="form__input">
               <fieldset>
-                <label for="adults">Взрослые:</label>
-                <input type="number" name="adults" id="adults" value="1" min="1">
-                <label for="child">Дети:</label>
-                <input type="number" name="child" id="child" value="0">
+                <label for="adults" class="form__label">Взрослые:</label>
+                <input type="number" name="adults" id="adults" value="1" min="1" class="form__input">
+                <label for="child" class="form__label">Дети:</label>
+                <input type="number" name="child" id="child" value="0" class="form__input">
               </fieldset>
-              <input type="submit" name="" value="Найти">
+              <input type="submit" name="" value="Найти" class="form__button">
             </form>
           </div>
           <div class="form-block__map"></div>
